@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/src/css/style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <title>Tela de Login</title>
 </head>
 <body>
     <main>
-        <div id="image-content">
-            <img src="#" alt="Imagem do Cristo Redentor">
+        <div id="image-container">
         </div>
-        <div id="form-content">
+        <div id="form-container">
             <h1>Login</h1>
             <p>Seja bem-vindo (a) novamente! Faça login para acessar sua conta.</p>
             <form action="#" method="post" autocomplete="on">
-                <div>
-                    <label for="iemail">(ícone)</label>
+                <div class="input">
+                    <label for="iemail"><i class="material-icons">person</i></label>
                     <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail">
                 </div>
-                <div>
-                    <label for="ipassword">(ícone)</label>
+                <div class="input">
+                    <label for="ipassword"><i class="material-icons">key</i></label>
                     <input type="password" name="password" id="ipassword" placeholder="Digite sua senha">
                 </div>
-                <div>
+                <div class="send">
                     <input type="submit" value="Entrar">
                     <div id="recover-button">
                         <p>Esqueci a senha (ícone)</p>

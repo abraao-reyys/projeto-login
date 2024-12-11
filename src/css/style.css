@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+:root {
+    --color1: #3B590C;
+    --color2: #AABF0B;
+    --color3: #F2A922;
+    --color4: #F2780C;
+    --color5: #D93F07;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    position: relative;
+    background-color: var(--color1);
+}
+
+main {
+    height: 500px;
+    width: 300px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.445);
+
+    background-color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#image-container {
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    background-image: url(../images/cristo-redentor.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#form-container {
+    padding: 12px;
+}
+
+#form-container > h1 {
+    padding-bottom: 12px;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+#form-container p {
+    font-size: 0.8em;
+}
+
+#form-container > p {
+    text-align: justify;
+    padding-bottom: 8px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+
+    height: 40px;
+
+    margin-bottom: 5px;
+    padding: 2px 1px;
+
+    border-radius: 10px;
+
+    background-color: var(--color4);
+}
+
+.input label {
+    color: white;
+    padding: 0px 10px;
+}
+
+.input input {
+    height: 70%;
+    width: 80%;
+
+    border: 0;
+    border-radius: 10px;
+    padding: 3px;
+}
