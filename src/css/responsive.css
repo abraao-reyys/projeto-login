@@ -5,7 +5,7 @@
 @media screen and (min-width: 769px) {
     body {
         background-color: unset;
-        background-image: linear-gradient(to bottom, var(--color1), var(--color3));
+        background-image: linear-gradient(to bottom, #3B590C, #F2A922);
     }
 
     main {
